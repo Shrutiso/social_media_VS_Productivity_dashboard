@@ -36,7 +36,8 @@ The Power BI file is split into multiple pages — each designed with a clear na
 3. **Summary Page / Basic Statistics**
    - Tabular summaries of platform counts, number of notifications, sleep hours aggregated by job type and gender.
    - Aggregate numeric KPIs for total users, sums and averages to support insights and reporting.
-
+   - 
+<img src="https://github.com/Shrutiso/social_media_VS_Productivity_dashboard/blob/main/img-1.png?raw=true" width="600">
 
 
 ## Data
@@ -69,5 +70,5 @@ AvgJobSatisfaction = AVERAGE('social_media_productivity'[job_satisfaction_score]
 TotalMaleCount = CALCULATE(COUNTROWS('social_media_productivity'), 'social_media_productivity'[gender] = "Male")
 TotalFemaleCount = CALCULATE(COUNTROWS('social_media_productivity'), 'social_media_productivity'[gender] = "Female")
 
-<img src="https://github.com/Shrutiso/social_media_VS_Productivity_dashboard/blob/main/img-1.png?raw=true" width="600">
+
 
