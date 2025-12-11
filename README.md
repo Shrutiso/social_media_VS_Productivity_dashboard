@@ -68,4 +68,4 @@ AvgJobSatisfaction = AVERAGE('social_media_productivity'[job_satisfaction_score]
 
 TotalMaleCount = CALCULATE(COUNTROWS('social_media_productivity'), 'social_media_productivity'[gender] = "Male")
 TotalFemaleCount = CALCULATE(COUNTROWS('social_media_productivity'), 'social_media_productivity'[gender] = "Female")
-![Dashboard](img-1.png)
+![Dashboard]
