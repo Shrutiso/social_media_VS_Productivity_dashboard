@@ -57,15 +57,15 @@ The dashboard uses a cleaned and preprocessed survey dataset containing (but not
 
 
 ## Measures / Example DAX snippets
-Replace `TableName` with your actual table name.
+
 
 ```DAX
-AvgDailySocialMediaTime = AVERAGE('TableName'[daily_social_media_time])
+AvgDailySocialMediaTime = AVERAGE('social_media_productivity'[daily_social_media_time])
 
-AvgBreaksDuringWork = AVERAGE('TableName'[breaks_during_work])
+AvgBreaksDuringWork = AVERAGE('social_media_productivity'[breaks_during_work])
 
-AvgJobSatisfaction = AVERAGE('TableName'[job_satisfaction_score])
+AvgJobSatisfaction = AVERAGE('social_media_productivity'[job_satisfaction_score])
 
-TotalMaleCount = CALCULATE(COUNTROWS('TableName'), 'TableName'[gender] = "Male")
-TotalFemaleCount = CALCULATE(COUNTROWS('TableName'), 'TableName'[gender] = "Female")
+TotalMaleCount = CALCULATE(COUNTROWS('social_media_productivity'), 'social_media_productivity'[gender] = "Male")
+TotalFemaleCount = CALCULATE(COUNTROWS('social_media_productivity'), 'social_media_productivity'[gender] = "Female")
 
