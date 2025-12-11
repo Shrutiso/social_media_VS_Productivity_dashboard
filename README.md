@@ -40,8 +40,21 @@ The Power BI file is split into multiple pages — each designed with a clear na
 
 
 
+## 🖼️ Screenshots
+
+### **Dashboard Overview**
 <img src="https://github.com/Shrutiso/social_media_VS_Productivity_dashboard/blob/main/img-1.png?raw=true" width="600">
+
+---
+
+### **Behaviour & Productivity Insights**
 <img src="https://github.com/Shrutiso/social_media_VS_Productivity_dashboard/blob/main/img-2.png?raw=true" width="600">
+
+---
+
+### **Summary & Analysis**
+<img src="https://github.com/Shrutiso/social_media_VS_Productivity_dashboard/blob/main/img-3.png?raw=true" width="600">
+
 
 
 
